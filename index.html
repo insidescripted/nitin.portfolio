@@ -14,6 +14,14 @@
 	no-repeat center center;	
 	z-index: 99999;
 }
+.progress {
+  background: linear-gradient(to right, #F9EC31 var(--scroll), transparent 0);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 4px;
+  z-index: 1;
+}
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -60,7 +68,6 @@ body {
   margin: 4px 2px;
   transition: 0.3s;
 }
-
 .nav-menu li a:hover {
   background-color: black;
   color: white;
@@ -439,10 +446,11 @@ button:focus {
     height: inherit;
     width: 50%;
 }
-    </style>
+</style>
 </head>
 <body onload="myFunction()">
   <div id="loading"></div>
+  <div class="progress"></div>
     <header id="body-header">
         <nav>
             <ul class="horizontal-list text-center nav-menu">
@@ -992,10 +1000,20 @@ SQL Database Management.
         </section>
     </main>
 <script>
-	var preloader = document.getElementById("loading");
-	function myFunction(){
-	preloader.style.display = 'none';
-	};
+  var h = document.documentElement,
+  b = document.body,
+  st = 'scrollTop',
+  sh = 'scrollHeight',
+  progress = document.querySelector('.progress'),
+  scroll;
+  document.addEventListener('scroll', function() {
+  scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+});
+  var preloader = document.getElementById("loading");
+  function myFunction(){
+  preloader.style.display = 'none';
+};
 </script>
 </body>
 </html>
