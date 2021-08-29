@@ -8,12 +8,6 @@
 	z-index: 99999;
 }
 /*-----------------------------------------------------------*/
-.center {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-}
-/*-----------------------------------------------------------*/
 .progress {
   background: linear-gradient(to right, red var(--scroll), transparent 0);
   background-repeat: no-repeat;
