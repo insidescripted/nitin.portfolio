@@ -1,6 +1,1 @@
-# Portfolio
-![Capture](https://user-images.githubusercontent.com/54750557/140604640-a2ee953f-3686-4c77-9590-29aa561f52d8.PNG)
-
-
-
-
+![Capture](https://user-images.githubusercontent.com/54750557/146217575-be04988b-a79d-4379-b9e6-47c654932bb5.PNG)
