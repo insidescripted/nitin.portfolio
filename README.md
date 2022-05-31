@@ -1,1 +1,1 @@
-![Cisco   Viptela SD-WAN](https://user-images.githubusercontent.com/54750557/170770584-917fd73e-dc2b-4e7e-a522-21a7fdaf2238.PNG)
+![Cisco   Viptela SD-WAN](https://user-images.githubusercontent.com/54750557/171224467-a6c13b67-843f-40e9-9a8e-bfc48886d4fb.PNG)
