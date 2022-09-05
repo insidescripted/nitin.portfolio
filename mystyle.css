@@ -77,17 +77,18 @@ body {
     color: white;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    font-size: 1.24rem;
 }
 #my-head {
     letter-spacing: 0.1rem;
     color: black;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    font-size: 1.64rem;
+    font-size: 2.64rem;
 }
 .social-icons li a i {
     padding: 15px;
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     border-radius: 50%;
 }
 .social-icons li a i:hover {
