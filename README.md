@@ -1,1 +1,1 @@
-![Capture_BackgroundWallpaper](https://user-images.githubusercontent.com/54750557/182696850-1b2b9998-072d-4eb5-a506-0b8ea414ab51.PNG)
+![Capture_BackgroundWallpaper](https://user-images.githubusercontent.com/54750557/188502510-17522fbe-72f5-4f10-ad08-714d2a8f4a9b.PNG)
