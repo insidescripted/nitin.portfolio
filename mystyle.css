@@ -73,11 +73,11 @@ body {
     margin-top: 20vh;
 }
 #my-name {
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
     color: white;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    font-size: 0.54rem;
+    font-size: 1.64rem;
 }
 #my-head {
     letter-spacing: 0.1rem;
